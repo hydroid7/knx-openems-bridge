@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Builder
 @Data
-public class KnxClientConfig {
+public class KnxDeviceConfig {
     private String name;
     private String version;
     private String base;
